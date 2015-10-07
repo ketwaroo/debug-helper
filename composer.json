@@ -1,0 +1,15 @@
+{
+  "name":"ketwaroo/debug-helper",
+ "license": "MIT",
+ "authors": [
+    {
+      "name": "Yaasir Ketwaroo",
+      "email": "ketwaroo.yaasir@gmail.com"
+    }
+ ],
+  "autoload":{
+    "files":[
+      "deug-helpers.php"
+    ]
+  }
+}
