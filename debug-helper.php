@@ -48,7 +48,7 @@ if(!function_exists('prntd'))
      */
     function prntd()
     {
-        call_user_func_array('static::prnt', func_get_args());
+        call_user_func_array('prnt', func_get_args());
         die;
     }
 }
