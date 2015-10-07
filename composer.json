@@ -9,7 +9,7 @@
  ],
   "autoload":{
     "files":[
-      "debug-helpers.php"
+      "debug-helper.php"
     ]
   }
 }
