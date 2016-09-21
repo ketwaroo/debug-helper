@@ -21,7 +21,13 @@ if(!function_exists('prnt'))
         }
         foreach(func_get_args() as $a)
         {
-            if(is_array($a) || is_object($a))
+            if(is_object($a)){
+                print_r([
+                    'class'=>$a,
+                    'methods'=>  get_class_methods(get_class($a)),
+                ]);
+            }
+            elseif(is_array($a))
             {
                 print_r($a);
             }
