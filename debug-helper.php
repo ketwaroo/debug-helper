@@ -58,3 +58,9 @@ if(!function_exists('prntd'))
         die;
     }
 }
+if(!function_exists('dd')) {
+    function dd(){
+        call_user_func_array('prnt', func_get_args());
+        die;
+    }
+}
